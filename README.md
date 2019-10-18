@@ -4,9 +4,9 @@
 
 ### 10/18-10/25/2019
 
-##Team
+## Team
 
-- Zac Smith ~ PL ~ [zrsmith75](https://github.com/zrsmith75)
+- Zac Smith ~ PL ~ GH: [zrsmith75](https://github.com/zrsmith75)
 
 ## Stack
 
