@@ -48,6 +48,19 @@
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
+.toolTypescontent {
+  display: flex;
+  align-content: space-between;
+  width: 100%;
+}
+.toolTypescontent .toolcatbox {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ffa500;
+  border-radius: 5px;
+  width: 23%;
+  margin: 1%;
+}
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
