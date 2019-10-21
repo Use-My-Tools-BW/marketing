@@ -238,7 +238,7 @@ header {
 }
 @media (max-width: 500px) {
   header {
-    height: 470px;
+    height: 530px;
   }
 }
 header .navMain {
