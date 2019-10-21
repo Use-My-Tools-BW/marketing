@@ -1,0 +1,51 @@
+header {
+  background: repeating-linear-gradient(65deg,
+  @cautionyel,
+  @cautionyel 40px,
+  @black 40px,
+  @black 80px);
+  border-radius: 9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  border: 1px solid @black;
+  position: relative;
+
+  @media @phone{
+    height: 470px;
+  }
+  .navMain {
+    position: absolute;
+    margin: 2rem;
+    width: auto;
+  }
+
+  .navTop {
+    overflow: hidden;
+    //background-color: @black;
+
+    a {
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+      float: left;
+      color: @cautionyel;
+      text-align: center;
+      padding: 1em 1.2em;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 1em;
+      &:hover{
+        background-color: @cautionyel;
+        color: @black;
+      }
+    }
+  }
+  @media @phone{
+    .navTop{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
