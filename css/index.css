@@ -1,3 +1,53 @@
+.mainCntnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.toolUseTypeBtnCntnr {
+  height: 10%;
+  display: flex;
+  white-space: nowrap;
+  justify-content: center;
+  width: 100%;
+}
+.toolUseTypeBtnCntnr .needAToolBtn {
+  display: flex;
+  justify-content: center;
+  background-color: #ffa500;
+  color: #000000;
+  margin-right: 1px;
+  border-left: 1px solid #ffa500;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.toolUseTypeBtnCntnr .haveAToolBtn {
+  display: flex;
+  justify-content: center;
+  background-color: #ffa500;
+  margin-left: 1px;
+  border-left: 1px solid #ffa500;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  color: #000000;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.useTypeDescContent {
+  display: flex;
+  background: rgba(255, 165, 0, 0.4);
+  padding: 2%;
+  margin: 0 2%;
+}
+.useTypeDescContent .toolneededimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+}
+.useTypeDescContent .workHardimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+}
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -218,4 +268,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-/*# sourceMappingURL=index.css.map */
