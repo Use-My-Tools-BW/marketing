@@ -12,9 +12,14 @@ header {
   border: 1px solid @black;
   position: relative;
 
-  @media @phone{
+  @media @tablet {
+    height: 260px;
+  }
+
+  @media @phone {
     height: 470px;
   }
+
   .navMain {
     position: absolute;
     margin: 2rem;
@@ -36,16 +41,57 @@ header {
       text-decoration: none;
       font-size: 1.1em;
       margin: 1em;
-      &:hover{
+
+      &:hover {
         background-color: @cautionyel;
         color: @black;
       }
     }
   }
-  @media @phone{
-    .navTop{
+
+  @media @tablet {
+    .navTop {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 65%;
+      //flex-direction: column;
+    }
+  }
+
+  @media @phone {
+    .navTop {
       display: flex;
       flex-direction: column;
+      max-width: 100%;
+    }
+  }
+
+  .navLoginMain {
+    margin: 0rem 1.2rem;
+    display:flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .loginTop {
+    overflow: hidden;
+
+    a {
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+      display:flex;
+      color: @cautionyel;
+      text-align: center;
+      padding: 1em 1.2em;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 1em;
+
+      &:hover {
+        background-color: @cautionyel;
+        color: @black;
+      }
     }
   }
 }
