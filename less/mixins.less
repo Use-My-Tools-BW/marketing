@@ -15,3 +15,16 @@
     margin: @margin;
     color: @color;
   }
+.page-break(@height: 20px, @c1Width: 40px, @c2Width: 40px, @spacing: 80px){
+  background: repeating-linear-gradient(65deg,
+  @cautionyel,
+  @cautionyel @c1Width,
+  @black @c2Width,
+  @black @spacing);
+  border-radius: 9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: @height;
+  border: 1px solid @black;
+}

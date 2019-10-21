@@ -1,0 +1,112 @@
+header {
+  background: repeating-linear-gradient(65deg,
+  @cautionyel,
+  @cautionyel 40px,
+  @black 40px,
+  @black 80px);
+  border-radius: 9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 180px;
+  border: 1px solid @black;
+  position: relative;
+
+  @media @tablet {
+    height: 260px;
+  }
+
+  @media @phone {
+    height: 470px;
+  }
+
+  .navMain {
+    position: absolute;
+    margin: 2rem;
+    width: auto;
+  }
+
+  .navTop {
+    overflow: hidden;
+    //background-color: @black;
+
+    a {
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+      float: left;
+      color: @cautionyel;
+      text-align: center;
+      padding: 1em 1.2em;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 1em;
+
+      &:hover {
+        background-color: @cautionyel;
+        color: @black;
+      }
+    }
+    .search-container .searchBtn{
+      cursor: pointer;
+      &:hover {
+        background: @cautionyel;
+        border-color:@dullorange;
+      }
+    }
+    .search-container{
+      float: right;
+      padding: 1.15em 1.2em;
+      margin: 1.1em 0;
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+    }
+  }
+
+  @media @tablet {
+    .navTop {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 80%;
+      //flex-direction: column;
+    }
+  }
+
+  @media @phone {
+    .navTop {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+  }
+
+  .navLoginMain {
+    margin: 0rem 1.2rem;
+    display:flex;
+    justify-content: flex-end;
+    width: auto;
+  }
+
+  .loginTop {
+    overflow: hidden;
+
+    a {
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+      display:flex;
+      color: @cautionyel;
+      text-align: center;
+      padding: 1em 1.2em;
+      text-decoration: none;
+      font-size: 1.1em;
+      margin: 1em;
+
+      &:hover {
+        background-color: @cautionyel;
+        color: @black;
+      }
+    }
+  }
+}
