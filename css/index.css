@@ -42,11 +42,26 @@ header .navTop a:hover {
   background-color: #eed202;
   color: #000000;
 }
+header .navTop .search-container .searchBtn {
+  cursor: pointer;
+}
+header .navTop .search-container .searchBtn:hover {
+  background: #eed202;
+  border-color: #ffa500;
+}
+header .navTop .search-container {
+  float: right;
+  padding: 1.15em 1.2em;
+  margin: 1.1em 0;
+  border: 1px solid #ffa500;
+  border-radius: 5px;
+  background-color: #000000;
+}
 @media (max-width: 720px) {
   header .navTop {
     display: flex;
     flex-wrap: wrap;
-    max-width: 65%;
+    max-width: 80%;
   }
 }
 @media (max-width: 500px) {

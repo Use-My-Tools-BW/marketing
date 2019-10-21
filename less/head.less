@@ -47,13 +47,28 @@ header {
         color: @black;
       }
     }
+    .search-container .searchBtn{
+      cursor: pointer;
+      &:hover {
+        background: @cautionyel;
+        border-color:@dullorange;
+      }
+    }
+    .search-container{
+      float: right;
+      padding: 1.15em 1.2em;
+      margin: 1.1em 0;
+      border: 1px solid @dullorange;
+      border-radius: 5px;
+      background-color: @black;
+    }
   }
 
   @media @tablet {
     .navTop {
       display: flex;
       flex-wrap: wrap;
-      max-width: 65%;
+      max-width: 80%;
       //flex-direction: column;
     }
   }
