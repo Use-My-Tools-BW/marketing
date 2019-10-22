@@ -461,7 +461,7 @@ header .loginTop a:hover {
   text-decoration: none;
   text-align: center;
 }
-.useTypeDescContent .toolneededimg img {
+.useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
