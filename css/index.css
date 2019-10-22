@@ -377,19 +377,19 @@ header .loginTop a:hover {
   text-align: center;
   white-space: nowrap;
 }
-.useTypeDescContent .workHardimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-}
-.useTypeDescContent h2 {
+.useTypeDescContent .haveAToolDesc h2 {
   font-size: 1.4rem;
 }
-.useTypeDescContent h3 {
+.useTypeDescContent .haveAToolDesc h3 {
   font-size: 1.2rem;
   font-style: italic;
 }
-.useTypeDescContent p {
+.useTypeDescContent .haveAToolDesc p {
   font-size: 1.1rem;
+}
+.useTypeDescContent .haveAToolDesc .workHardimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 .useTypeDescContent .needAToolDesc {
   display: flex;
@@ -411,10 +411,6 @@ header .loginTop a:hover {
   text-align: center;
   white-space: nowrap;
 }
-.useTypeDescContent .needAToolDesc .toolneededimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-}
 .useTypeDescContent .needAToolDesc h2 {
   font-size: 1.4rem;
 }
@@ -424,6 +420,10 @@ header .loginTop a:hover {
 }
 .useTypeDescContent .needAToolDesc p {
   font-size: 1.1rem;
+}
+.useTypeDescContent .needAToolDesc .toolneededimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 .mainCntnt {
   display: flex;
@@ -444,35 +444,26 @@ header .loginTop a:hover {
 .mainCntnt .toolTypescontent .toolcatbox {
   display: flex;
   flex-direction: column;
-  justify-items: space-around;
   justify-content: space-around;
-  align-content: space-around;
+  align-content: center;
   border: 1px solid #ffa500;
   border-radius: 5px;
-  margin: 2%;
-  padding: 2%;
   width: 25%;
+  margin: 2%;
 }
 .mainCntnt .toolTypescontent .toolcatbox h2 {
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
   margin: 2%;
   display: flex;
   white-space: nowrap;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
 }
-.mainCntnt .toolTypescontent .toolcatbox .ctbimg {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
+.mainCntnt .toolTypescontent .toolcatbox .ctbimg img {
   margin: 2%;
 }
 .mainCntnt .toolTypescontent .toolcatbox a {
   display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-content: center;
   border: 1px solid #ffa500;
   display: block;
   background-color: #000000;
@@ -493,7 +484,7 @@ header .loginTop a:hover {
   width: 90%;
 }
 #havetoolcnt p {
-  text-align: right;
+  text-align: left;
   cursor: pointer;
 }
 #needtoolcnt {
@@ -501,7 +492,7 @@ header .loginTop a:hover {
   width: 90%;
 }
 #needtoolcnt p {
-  text-align: right;
+  text-align: left;
   cursor: pointer;
 }
 input {
