@@ -1,59 +1,3 @@
-.mainCntnt{
-    display:flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-   .toolTypescontent{
-        display:flex;
-        justify-content:space-around;
-        flex-wrap: wrap;
-        margin:0 2%;
-        justify-content: center;
-        align-content: center;
-        .toolcatbox{
-            display:flex;
-            flex-direction: column;
-            justify-items: space-around;
-            justify-content: space-around;
-            align-content: space-around;
-            border:1px solid @dullorange;
-            border-radius: 5px;
-            margin:2%;
-            padding:2%;
-            width:25%;
-            
-            h2{
-                margin: 2%;
-                display:flex;
-                white-space: nowrap;
-                justify-items: center;
-                justify-content: center;
-                align-content: center; 
-                
-            }
-            .ctbimg{
-                display:flex;
-                justify-items: center;
-                justify-content: center;
-                align-content: center; 
-                margin:2%;
-            }
-            a{
-                display:flex;
-                justify-items: center;
-                justify-content: center;
-                align-content: center;
-                text-align: center;
-                border:1px solid @dullorange;
-                .btn-creator(@black, 37%, @dullorange, 15%);
-                margin:2%;
-            }
-         
-        }
-    }
-}
 .useTypeDescContent{
     display:flex;
     justify-items: center;
@@ -109,7 +53,7 @@
         .workHardimg img{
             border:0px solid @dullorange;
             border-radius:100%;
-        }
+            }
     .needAToolDesc {
             display:flex;
             flex-direction: column;
@@ -122,15 +66,73 @@
             .toolneededimg img{
                 border:0px solid @dullorange;
                 border-radius:100%;
-            }    
+                }    
     }
 
         
 }
 
+.mainCntnt{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   .toolTypescontent{
+        display:flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        margin:0 2%;
+        justify-content: center;
+        align-content: center;
+        .toolcatbox{
+            display:flex;
+            flex-direction: column;
+            justify-items: space-around;
+            justify-content: space-around;
+            align-content: space-around;
+            border:1px solid @dullorange;
+            border-radius: 5px;
+            margin:2%;
+            padding:2%;
+            width:25%;
+            
+            h2{
+                margin: 2%;
+                display:flex;
+                white-space: nowrap;
+                justify-items: center;
+                justify-content: center;
+                align-content: center; 
+                
+            }
+            .ctbimg{
+                display:flex;
+                justify-items: center;
+                justify-content: center;
+                align-content: center; 
+                margin:2%;
+                            
+            }
+            a{
+                display:flex;
+                justify-items: center;
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                border:1px solid @dullorange;
+                .btn-creator(@black, 30%, @dullorange, 5%);
+                margin:2%;
+                padding:2%;
+            }
+         
+        }
+    }
+}
+
 
 #havetoolcnt  {
-    text-align:left;
     padding: 2%;
     width: 90%;
     p {
@@ -139,7 +141,6 @@
     }
 }
 #needtoolcnt  {
-    text-align:left;
     padding: 2%;
     width: 90%;
     p {
@@ -160,9 +161,6 @@ input#ndtlshw:checked ~ span#needtoolcnt {
 }
 
 input#ndtlhd:checked ~ span#needtoolcnt {
-    display:none;
-}
-input {
     display:none;
 }
 
