@@ -331,7 +331,6 @@ header .loginTop a:hover {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: rgba(255, 165, 0, 0.4);
   margin: 0 2%;
   justify-content: center;
   align-content: center;
@@ -341,7 +340,7 @@ header .loginTop a:hover {
   flex-direction: column;
   justify-items: space-around;
   justify-content: space-around;
-  align-content: center;
+  align-content: space-around;
   border: 1px solid #ffa500;
   border-radius: 5px;
   margin: 2%;
@@ -377,7 +376,7 @@ header .loginTop a:hover {
   font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
-  padding: 10px;
+  padding: 1%;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -385,8 +384,6 @@ header .loginTop a:hover {
 }
 .useTypeDescContent {
   display: flex;
-  flex-direction: column;
-  background: rgba(255, 165, 0, 0.4);
   justify-items: center;
   justify-content: center;
   align-content: center;
@@ -406,7 +403,7 @@ header .loginTop a:hover {
   font-size: 2rem;
   text-decoration: none;
   margin: 0.5% 0;
-  width: 25%;
+  width: 100%;
 }
 .useTypeDescContent .haveAToolBtn {
   display: flex;
@@ -415,29 +412,31 @@ header .loginTop a:hover {
   background-color: #ffa500;
   margin-right: 0.5%;
   border-left: 1px solid #ffa500;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
   color: #000000;
   font-size: 2rem;
   text-decoration: none;
   margin: 0.5% 0;
-  width: 25%;
+  width: 100%;
 }
 .useTypeDescContent .haveAToolDesc {
   display: flex;
   flex-direction: column;
   padding: 2%;
+  background: rgba(255, 165, 0, 0.4);
+  border-bottom-right-radius: 40px;
 }
 .useTypeDescContent .haveAToolDesc a {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 25%;
-  height: 5%;
+  width: 20%;
+  height: 2%;
   font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
-  padding: 10px;
+  padding: 1%;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -450,17 +449,19 @@ header .loginTop a:hover {
   display: flex;
   flex-direction: column;
   padding: 2%;
+  background: rgba(255, 165, 0, 0.4);
+  border-bottom-left-radius: 40px;
 }
 .useTypeDescContent .needAToolDesc a {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 25%;
-  height: 15%;
+  width: 15%;
+  height: 2%;
   font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
-  padding: 10px;
+  padding: 1%;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -468,6 +469,22 @@ header .loginTop a:hover {
 .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
   border-radius: 100%;
+}
+#havetoolcnt {
+  text-align: left;
+  padding: 2%;
+  width: 70%;
+}
+#havetoolcnt p {
+  text-align: right;
+}
+#needtoolcnt {
+  text-align: left;
+  padding: 2%;
+  width: 70%;
+}
+#needtoolcnt p {
+  text-align: right;
 }
 input {
   display: none;

@@ -9,7 +9,6 @@
         display:flex;
         justify-content:space-around;
         flex-wrap: wrap;
-        background:rgba(255, 165, 0, .4);
         margin:0 2%;
         justify-content: center;
         align-content: center;
@@ -18,12 +17,13 @@
             flex-direction: column;
             justify-items: space-around;
             justify-content: space-around;
-            align-content: center;
+            align-content: space-around;
             border:1px solid @dullorange;
             border-radius: 5px;
             margin:2%;
             padding:2%;
             width:25%;
+            
             h2{
                 margin: 2%;
                 display:flex;
@@ -56,8 +56,6 @@
 }
 .useTypeDescContent{
     display:flex;
-    flex-direction: column;
-    background:rgba(255, 165, 0, .4);
     justify-items: center;
     justify-content: center;
     align-content: center;
@@ -76,7 +74,8 @@
         font-size:2rem;
         text-decoration: none;
         margin:.5% 0;
-        width: 25%;
+        width: 100%;
+        
     } 
     .haveAToolBtn {
         display:flex;
@@ -86,21 +85,23 @@
         color:@black;
         margin-right:.5%;
         border-left: 1px solid @dullorange;
-        border-bottom-left-radius:20px;
-        border-top-left-radius:20px;
+        border-bottom-right-radius:20px;
+        border-top-right-radius:20px;
         color:@black;
         font-size:2rem;
         text-decoration: none;
         margin:.5% 0;
-        width: 25%;
+        width: 100%;
         
     }
     .haveAToolDesc {
         display:flex;
         flex-direction: column;
         padding:2%;
+        background:rgba(255, 165, 0, .4);
+            border-bottom-right-radius: 40px;
         a{
-            .btn-creator(@black, 25%, @dullorange, 5%);  
+            .btn-creator(@black, 20%, @dullorange, 2%);  
             }
         }
         .workHardimg img{
@@ -111,15 +112,36 @@
             display:flex;
             flex-direction: column;
             padding:2%;
+            background:rgba(255, 165, 0, .4);
+            border-bottom-left-radius: 40px;
             a{
-                .btn-creator(@black, 25%, @dullorange, 15%);  
+                .btn-creator(@black, 15%, @dullorange, 2%);  
             }    
             .toolneededimg img{
                 border:0px solid @dullorange;
                 border-radius:100%;
-            }    }
+            }    
+    }
 
         
+}
+
+
+#havetoolcnt  {
+    text-align:left;
+    padding: 2%;
+    width: 70%;
+    p {
+        text-align:right;
+    }
+}
+#needtoolcnt  {
+    text-align:left;
+    padding: 2%;
+    width: 70%;
+    p {
+        text-align:right;
+    }
 }
 
 input {
