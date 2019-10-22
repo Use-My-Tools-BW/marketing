@@ -227,23 +227,12 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 180px;
   border: 1px solid #000000;
   position: relative;
 }
-@media (max-width: 720px) {
-  header {
-    height: 260px;
-  }
-}
-@media (max-width: 500px) {
-  header {
-    height: 530px;
-  }
-}
 header .navMain {
   position: absolute;
-  margin: 2rem;
+  margin: 1rem;
   width: auto;
 }
 header .navTop {
@@ -256,10 +245,10 @@ header .navTop a {
   float: left;
   color: #eed202;
   text-align: center;
-  padding: 1em 1.2em;
+  padding: 4% 6%;
   text-decoration: none;
   font-size: 1.1em;
-  margin: 1em;
+  margin: 2.2%;
 }
 header .navTop a:hover {
   background-color: #eed202;
@@ -274,28 +263,14 @@ header .navTop .search-container .searchBtn:hover {
 }
 header .navTop .search-container {
   float: right;
-  padding: 1.15em 1.2em;
-  margin: 1.1em 0;
+  padding: 4% 6%;
+  margin: 2.2%;
   border: 1px solid #ffa500;
   border-radius: 5px;
   background-color: #000000;
 }
-@media (max-width: 720px) {
-  header .navTop {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80%;
-  }
-}
-@media (max-width: 500px) {
-  header .navTop {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-  }
-}
 header .navLoginMain {
-  margin: 0rem 1.2rem;
+  margin: 0 1.2rem;
   display: flex;
   justify-content: flex-end;
   width: auto;
@@ -310,10 +285,10 @@ header .loginTop a {
   display: flex;
   color: #eed202;
   text-align: center;
-  padding: 1em 1.2em;
+  padding: 1rem;
   text-decoration: none;
   font-size: 1.1em;
-  margin: 1em;
+  margin: 0.8rem;
 }
 header .loginTop a:hover {
   background-color: #eed202;
@@ -520,7 +495,6 @@ footer {
   height: 50px;
   border: 1px solid #000000;
   position: relative;
-  margin-top: 100px;
 }
 footer .navSub {
   position: absolute;
@@ -546,3 +520,138 @@ footer .navBottom a:hover {
   background-color: #eed202;
   color: #000000;
 }
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: '';
+}
+.clearfix:after {
+  clear: both;
+}
+#contactForm {
+  background: #ffffff;
+  color: #333;
+  font-weight: normal;
+  font-size: 1em;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+input:focus,
+textarea:focus,
+keygen:focus,
+select:focus {
+  outline: none;
+}
+::-moz-placeholder {
+  color: #666;
+  font-weight: 300;
+  opacity: 1;
+}
+::-webkit-input-placeholder {
+  color: #666;
+  font-weight: 300;
+}
+/* contact from design */
+.container {
+  padding: 20px 50px 70px;
+}
+.sec1title {
+  text-align: center;
+}
+.sec1title h1 {
+  font-size: 40px;
+  margin: 25px;
+  text-transform: uppercase;
+  color: #16F1D4;
+  font-weight: 400;
+}
+.section2 {
+  position: relative;
+  overflow: hidden;
+}
+.section2 .contactform {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  z-index: 99;
+  background: #393939;
+  padding: 30px 40px 70px;
+  box-sizing: border-box;
+}
+.section2 .contactform input.form-fields,
+.section2 .contactform button.form-fields,
+.section2 .contactform textarea.form-fields {
+  padding: 0 0 0 40px;
+  display: block;
+  box-sizing: border-box;
+  width: 350px;
+  font-size: 16px;
+  background: #323232;
+  margin: 7px 0;
+  border: 1px solid #00C1A8;
+  color: #6BECDB;
+  opacity: 0.5;
+  min-height: 45px;
+  text-shadow: none;
+  position: relative;
+}
+.section2 .contactform textarea.form-fields {
+  padding: 8px 40px;
+  resize: none;
+}
+.section2 .contactform button.form-fields.button {
+  color: #16F1D4;
+  font-size: 14px;
+  padding: 0;
+  text-transform: uppercase;
+}
+.section2 .contactform button.form-fields.button:hover {
+  background: #00C1A8;
+  color: #fff;
+  cursor: pointer;
+  opacity: 1;
+}
+.section2 .contactform button.form-fields.button i {
+  margin-left: 10px;
+}
+.section2 .contactform h5 {
+  color: #16F1D4;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.section2 .contactform label .cntfrmicn {
+  color: #00C1A8;
+  padding: 14px;
+  position: absolute;
+  z-index: 99;
+}
+@media only screen and (max-width: 660px) {
+  .container {
+    padding: 10px 20px 30px;
+  }
+  .contmap {
+    height: 475px !important;
+  }
+  .sec1title h1 {
+    font-size: 28px;
+  }
+  .section2 .contactform {
+    padding: 10px;
+    right: 0;
+    width: 100%;
+  }
+  .section2 .contactform input.form-fields,
+  .section2 .contactform button.form-fields,
+  .section2 .contactform textarea.form-fields {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
