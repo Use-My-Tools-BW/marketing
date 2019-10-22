@@ -403,6 +403,7 @@ header .loginTop a:hover {
   text-decoration: none;
   margin: 0.5% 0;
   width: 100%;
+  cursor: pointer;
 }
 .useTypeDescContent .haveAToolBtn {
   display: flex;
@@ -418,6 +419,7 @@ header .loginTop a:hover {
   text-decoration: none;
   margin: 0.5% 0;
   width: 100%;
+  cursor: pointer;
 }
 .useTypeDescContent .haveAToolDesc {
   display: flex;
@@ -474,6 +476,7 @@ header .loginTop a:hover {
 }
 #havetoolcnt p {
   text-align: right;
+  cursor: pointer;
 }
 #needtoolcnt {
   text-align: left;
@@ -482,6 +485,7 @@ header .loginTop a:hover {
 }
 #needtoolcnt p {
   text-align: right;
+  cursor: pointer;
 }
 input {
   display: none;
