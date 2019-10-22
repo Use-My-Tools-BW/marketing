@@ -373,7 +373,6 @@ header .loginTop a:hover {
   cursor: pointer;
   width: 37%;
   height: 15%;
-  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -433,7 +432,6 @@ header .loginTop a:hover {
   cursor: pointer;
   width: 20%;
   height: 2%;
-  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -458,7 +456,6 @@ header .loginTop a:hover {
   cursor: pointer;
   width: 15%;
   height: 2%;
-  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -473,7 +470,7 @@ header .loginTop a:hover {
 #havetoolcnt {
   text-align: left;
   padding: 2%;
-  width: 70%;
+  width: 90%;
 }
 #havetoolcnt p {
   text-align: right;
@@ -481,7 +478,7 @@ header .loginTop a:hover {
 #needtoolcnt {
   text-align: left;
   padding: 2%;
-  width: 70%;
+  width: 90%;
 }
 #needtoolcnt p {
   text-align: right;
