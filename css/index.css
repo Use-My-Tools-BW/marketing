@@ -336,30 +336,70 @@ header .loginTop a:hover {
   justify-content: center;
   background-color: #ffa500;
   color: #000000;
-  margin-right: 1px;
+  margin-right: 0.5%;
   border-left: 1px solid #ffa500;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   font-size: 2rem;
   text-decoration: none;
+  width: 48%;
+  margin: 0.5% 0;
 }
 .toolUseTypeBtnCntnr .haveAToolBtn {
   display: flex;
   justify-content: center;
   background-color: #ffa500;
-  margin-left: 1px;
+  margin-left: 0.5%;
   border-left: 1px solid #ffa500;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
   color: #000000;
   font-size: 2rem;
   text-decoration: none;
+  width: 48%;
+  margin: 0.5% 0;
 }
 .useTypeDescContent {
   display: flex;
   background: rgba(255, 165, 0, 0.4);
   padding: 2%;
   margin: 0 2%;
+}
+.useTypeDescContent .haveAToolDesc {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.useTypeDescContent .haveAToolDesc a {
+  display: block;
+  background-color: #000000;
+  cursor: pointer;
+  width: 25%;
+  height: 5%;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.useTypeDescContent .needAToolDesc {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.useTypeDescContent .needAToolDesc a {
+  display: block;
+  background-color: #000000;
+  cursor: pointer;
+  width: 25%;
+  height: 15%;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
 }
 .useTypeDescContent .toolneededimg img {
   border: 0px solid #ffa500;
@@ -371,16 +411,54 @@ header .loginTop a:hover {
 }
 .toolTypescontent {
   display: flex;
-  align-content: space-between;
+  justify-content: center;
   width: 100%;
+  margin: 0 2%;
 }
 .toolTypescontent .toolcatbox {
   display: flex;
   flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
   border: 1px solid #ffa500;
   border-radius: 5px;
   width: 23%;
   margin: 1%;
+  padding: 2%;
+}
+.toolTypescontent .toolcatbox h2 {
+  margin: 2%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.toolTypescontent .toolcatbox .ctbimg {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0.5%;
+}
+.toolTypescontent .toolcatbox a {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid #ffa500;
+  display: block;
+  background-color: #000000;
+  cursor: pointer;
+  width: 50%;
+  height: 15%;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0.5%;
 }
 footer {
   background: repeating-linear-gradient(65deg, #eed202, #eed202 40px, #000000 40px, #000000 80px);
@@ -417,4 +495,3 @@ footer .navBottom a:hover {
   background-color: #eed202;
   color: #000000;
 }
-/*# sourceMappingURL=index.css.map */
