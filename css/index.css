@@ -322,18 +322,25 @@ header .loginTop a:hover {
 .mainCntnt {
   display: flex;
   flex-direction: column;
+  justify-items: center;
   justify-content: center;
+  align-content: center;
+  text-align: center;
 }
-.toolUseTypeBtnCntnr {
-  height: 10%;
+.useTypeDescContent {
   display: flex;
+  flex-direction: column;
+  background: rgba(255, 165, 0, 0.4);
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 0 2%;
+}
+.useTypeDescContent .needAToolBtn {
+  display: flex;
+  justify-content: center;
   white-space: nowrap;
-  justify-content: center;
-  width: 100%;
-}
-.toolUseTypeBtnCntnr .needAToolBtn {
-  display: flex;
-  justify-content: center;
   background-color: #ffa500;
   color: #000000;
   margin-right: 0.5%;
@@ -342,28 +349,23 @@ header .loginTop a:hover {
   border-top-left-radius: 20px;
   font-size: 2rem;
   text-decoration: none;
-  width: 48%;
   margin: 0.5% 0;
+  width: 25%;
 }
-.toolUseTypeBtnCntnr .haveAToolBtn {
+.useTypeDescContent .haveAToolBtn {
   display: flex;
   justify-content: center;
+  white-space: nowrap;
   background-color: #ffa500;
-  margin-left: 0.5%;
+  margin-right: 0.5%;
   border-left: 1px solid #ffa500;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
   color: #000000;
   font-size: 2rem;
   text-decoration: none;
-  width: 48%;
   margin: 0.5% 0;
-}
-.useTypeDescContent {
-  display: flex;
-  background: rgba(255, 165, 0, 0.4);
-  padding: 2%;
-  margin: 0 2%;
+  width: 25%;
 }
 .useTypeDescContent .haveAToolDesc {
   display: flex;
@@ -374,14 +376,18 @@ header .loginTop a:hover {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 25%;
+  width: 50%;
   height: 5%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 10px;
   text-decoration: none;
   text-align: center;
+}
+.useTypeDescContent .workHardimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 .useTypeDescContent .needAToolDesc {
   display: flex;
@@ -392,9 +398,9 @@ header .loginTop a:hover {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 25%;
+  width: 50%;
   height: 15%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 10px;
@@ -405,43 +411,42 @@ header .loginTop a:hover {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
-.useTypeDescContent .workHardimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-}
-.toolTypescontent {
+.mainCntnt .toolTypescontent {
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background: rgba(255, 165, 0, 0.4);
   margin: 0 2%;
+  justify-content: center;
+  align-content: center;
 }
-.toolTypescontent .toolcatbox {
+.mainCntnt .toolTypescontent .toolcatbox {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  justify-content: center;
+  justify-items: space-around;
+  justify-content: space-around;
   align-content: center;
   border: 1px solid #ffa500;
   border-radius: 5px;
-  width: 23%;
-  margin: 1%;
+  margin: 2%;
   padding: 2%;
 }
-.toolTypescontent .toolcatbox h2 {
+.mainCntnt .toolTypescontent .toolcatbox h2 {
   margin: 2%;
   display: flex;
+  white-space: nowrap;
   justify-items: center;
   justify-content: center;
   align-content: center;
 }
-.toolTypescontent .toolcatbox .ctbimg {
+.mainCntnt .toolTypescontent .toolcatbox .ctbimg {
   display: flex;
   justify-items: center;
   justify-content: center;
   align-content: center;
-  margin: 0.5%;
+  margin: 2%;
 }
-.toolTypescontent .toolcatbox a {
+.mainCntnt .toolTypescontent .toolcatbox a {
   display: flex;
   justify-items: center;
   justify-content: center;
@@ -450,15 +455,39 @@ header .loginTop a:hover {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   height: 15%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   border-radius: 10px;
   color: #ffa500;
   padding: 10px;
   text-decoration: none;
   text-align: center;
-  margin: 0.5%;
+  margin: 2%;
+}
+input {
+  display: none;
+}
+span#needtoolcnt {
+  display: none;
+}
+input#ndtlshw:checked ~ span#needtoolcnt {
+  display: block;
+}
+input#ndtlhd:checked ~ span#needtoolcnt {
+  display: none;
+}
+input {
+  display: none;
+}
+span#havetoolcnt {
+  display: none;
+}
+input#hvtlshw:checked ~ span#havetoolcnt {
+  display: block;
+}
+input#hvtlhd:checked ~ span#havetoolcnt {
+  display: none;
 }
 footer {
   background: repeating-linear-gradient(65deg, #eed202, #eed202 40px, #000000 40px, #000000 80px);
