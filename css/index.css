@@ -346,6 +346,7 @@ header .loginTop a:hover {
   border-radius: 5px;
   margin: 2%;
   padding: 2%;
+  width: 25%;
 }
 .mainCntnt .toolTypescontent .toolcatbox h2 {
   margin: 2%;
@@ -371,7 +372,7 @@ header .loginTop a:hover {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 100%;
+  width: 37%;
   height: 15%;
   font-size: 1.2rem;
   border-radius: 10px;
@@ -379,6 +380,7 @@ header .loginTop a:hover {
   padding: 10px;
   text-decoration: none;
   text-align: center;
+  white-space: nowrap;
   margin: 2%;
 }
 .useTypeDescContent {
@@ -438,6 +440,7 @@ header .loginTop a:hover {
   padding: 10px;
   text-decoration: none;
   text-align: center;
+  white-space: nowrap;
 }
 .useTypeDescContent .workHardimg img {
   border: 0px solid #ffa500;
@@ -460,6 +463,7 @@ header .loginTop a:hover {
   padding: 10px;
   text-decoration: none;
   text-align: center;
+  white-space: nowrap;
 }
 .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
