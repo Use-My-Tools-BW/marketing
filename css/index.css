@@ -325,7 +325,7 @@ header .loginTop a:hover {
   justify-content: center;
   align-content: center;
   text-align: center;
-  margin: 0 2%;
+  margin: 0 1%;
 }
 .useTypeDescContent .needAToolBtn {
   display: flex;
@@ -333,7 +333,6 @@ header .loginTop a:hover {
   white-space: nowrap;
   background-color: #ffa500;
   color: #000000;
-  margin-right: 0.5%;
   border-left: 1px solid #ffa500;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
@@ -348,7 +347,6 @@ header .loginTop a:hover {
   justify-content: center;
   white-space: nowrap;
   background-color: #ffa500;
-  margin-right: 0.5%;
   border-left: 1px solid #ffa500;
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
@@ -383,6 +381,16 @@ header .loginTop a:hover {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
+.useTypeDescContent h2 {
+  font-size: 1.4rem;
+}
+.useTypeDescContent h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.useTypeDescContent p {
+  font-size: 1.1rem;
+}
 .useTypeDescContent .needAToolDesc {
   display: flex;
   flex-direction: column;
@@ -406,6 +414,16 @@ header .loginTop a:hover {
 .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
   border-radius: 100%;
+}
+.useTypeDescContent .needAToolDesc h2 {
+  font-size: 1.4rem;
+}
+.useTypeDescContent .needAToolDesc h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.useTypeDescContent .needAToolDesc p {
+  font-size: 1.1rem;
 }
 .mainCntnt {
   display: flex;
