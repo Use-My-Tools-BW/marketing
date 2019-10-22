@@ -15,13 +15,14 @@
     justify-content: center;
     background-color: @dullorange;
     color:@black;
-    margin-right:1px;
+    margin-right:.5%;
     border-left: 1px solid @dullorange;
     border-bottom-left-radius:20px;
     border-top-left-radius:20px;
     font-size:2rem;
     text-decoration: none;
-    
+    width:48%;
+    margin:.5% 0;
 }
 
 .toolUseTypeBtnCntnr .haveAToolBtn {
@@ -29,14 +30,15 @@
     justify-content: center;
     background-color: @dullorange;
     color:@black;
-    margin-left:1px;
+    margin-left:.5%;
     border-left: 1px solid @dullorange;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     color:@black;
     font-size:2rem;
     text-decoration: none;
-   
+    width:48%;
+    margin:.5% 0;
     
 }
 
@@ -47,7 +49,22 @@
     margin:0 2%;
    
 }
-
+.useTypeDescContent .haveAToolDesc {
+display:flex;
+flex-direction: column;
+padding:2%;
+}
+.useTypeDescContent .haveAToolDesc a{
+    .btn-creator(@black, 25%, @dullorange, 5%);  
+}
+.useTypeDescContent .needAToolDesc {
+    display:flex;
+    flex-direction: column;
+    padding:2%;
+    }
+.useTypeDescContent .needAToolDesc a{
+    .btn-creator(@black, 25%, @dullorange, 15%);  
+}
 .useTypeDescContent .toolneededimg img{
     border:0px solid @dullorange;
     border-radius:100%;
@@ -59,16 +76,47 @@
 
 .toolTypescontent{
     display:flex;
-    align-content: space-between;
+    justify-content: center;
     width:100%;
+    margin:0 2%;
 }
 
  .toolTypescontent .toolcatbox{
     display:flex;
     flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
     border:1px solid @dullorange;
     border-radius: 5px;
     width:23%;
     margin:1%;
+    padding:2%;
 
+}
+.toolTypescontent .toolcatbox h2{
+    margin: 2%;
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center; 
+    
+}
+
+.toolTypescontent .toolcatbox .ctbimg{
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center; 
+    margin:.5%;
+}
+.toolTypescontent .toolcatbox a{
+    display:flex;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border:1px solid @dullorange;
+    .btn-creator(@black, 50%, @dullorange, 15%);
+    margin:.5%;
 }
