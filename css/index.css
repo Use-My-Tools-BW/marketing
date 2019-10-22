@@ -585,6 +585,7 @@ select:focus {
   background: #393939;
   padding: 30px 40px 70px;
   box-sizing: border-box;
+  border: 2px solid #ffa500;
 }
 .section2 .contactform input.form-fields,
 .section2 .contactform button.form-fields,
