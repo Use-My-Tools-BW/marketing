@@ -548,9 +548,13 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   display: none;
 }
 .aboutteam {
+  margin: 2%;
   font-size: 1.6rem;
   text-align: center;
   padding: 2% 10%;
+  background-color: #ffa500;
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 .teemmembers {
   display: flex;
