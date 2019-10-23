@@ -7,6 +7,7 @@
 ## Team
 
 - Zac Smith ~ PL ~ GH: [zrsmith75](https://github.com/zrsmith75)
+Joseph Graham ~ Web Dev UI ~ GH: https://github.com/oofiksoo
 
 ## Stack
 

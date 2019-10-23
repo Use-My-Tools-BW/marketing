@@ -346,10 +346,9 @@ header .loginTop a:hover {
   border-bottom-left-radius: 20px;
   font-size: 3rem;
   text-decoration: none;
-  width: 100%;
   height: 20vh;
   cursor: pointer;
-  padding: 5%;
+  padding: 10%;
   margin: 2%;
 }
 .useTypeDescContent .needAToolDesc .toolneededimg img {
@@ -402,10 +401,9 @@ header .loginTop a:hover {
   border-bottom-right-radius: 20px;
   font-size: 3rem;
   text-decoration: none;
-  width: 100%;
   height: 20vh;
   cursor: pointer;
-  padding: 5%;
+  padding: 10%;
   margin: 2%;
 }
 .useTypeDescContent .haveAToolDesc .haveAToolBtn a {
