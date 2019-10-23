@@ -668,7 +668,7 @@ header .loginTop a:hover {
   font-style: italic;
 }
 .useTypeDescContent .needAToolDesc p {
-  font-size: small;
+  font-size: 1.2rem;
 }
 .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
@@ -723,7 +723,7 @@ header .loginTop a:hover {
   font-style: italic;
 }
 .useTypeDescContent .haveAToolDesc p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .useTypeDescContent .haveAToolDesc .workHardimg img {
   border: 0px solid #ffa500;
