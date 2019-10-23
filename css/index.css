@@ -309,11 +309,11 @@ header .loginTop a:hover {
   color: #000000;
   border-left: 1px solid #ffa500;
   border-bottom-left-radius: 20px;
-  margin-right: 10%;
   font-size: x-large;
   text-decoration: none;
   width: 100%;
   cursor: pointer;
+  padding: 5%;
 }
 .useTypeDescContent .haveAToolBtn {
   display: flex;
@@ -322,22 +322,23 @@ header .loginTop a:hover {
   background-color: #ffa500;
   border-right: 1px solid #ffa500;
   border-bottom-right-radius: 20px;
-  margin-left: 10%;
   color: #000000;
   font-size: x-large;
   text-decoration: none;
   width: 100%;
   cursor: pointer;
+  padding: 5%;
 }
 .useTypeDescContent .haveAToolDesc {
   display: flex;
+  width: 75%;
 }
 .useTypeDescContent .haveAToolDesc a {
   display: block;
   background-color: #000000;
   cursor: pointer;
   width: 25%;
-  height: 5%;
+  height: 6%;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -362,13 +363,15 @@ header .loginTop a:hover {
 }
 .useTypeDescContent .needAToolDesc {
   display: flex;
+  margin: 0 4%;
+  width: 75%;
 }
 .useTypeDescContent .needAToolDesc a {
   display: block;
   background-color: #000000;
   cursor: pointer;
   width: 25%;
-  height: 5%;
+  height: 6%;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -423,6 +426,7 @@ header .loginTop a:hover {
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  white-space: nowrap;
   font-size: large;
   margin: 2%;
   display: flex;
@@ -446,7 +450,7 @@ header .loginTop a:hover {
   display: block;
   background-color: #000000;
   cursor: pointer;
-  width: 50%;
+  width: 70%;
   height: 15%;
   border-radius: 10px;
   color: #ffa500;
