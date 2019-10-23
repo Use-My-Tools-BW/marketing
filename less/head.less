@@ -8,7 +8,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 180px;
+  //height: 180px; height automatically adjusts to size of margins and widths
   border: 1px solid @black;
   position: relative;
 
@@ -23,11 +23,13 @@ header {
   .navMain {
     position: absolute;
     margin: 1rem;
-    width: auto;
+    width: 75%;
   }
 
   .navTop {
     overflow: hidden;
+    display: flex;
+
     //background-color: @black;
 
     a {
@@ -37,10 +39,11 @@ header {
       float: left;
       color: @cautionyel;
       text-align: center;
-      padding: 4% 6%;
+      padding: 1%;
       text-decoration: none;
-      font-size: 1.2rem;
-      margin: 2.2%;
+      font-size: 2.2rem;
+      margin: auto 2%;
+      height: 20%;
 
       &:hover {
         background-color: @cautionyel;
@@ -55,8 +58,8 @@ header {
       }
     }
     .search-container{
-      float: right;
-      padding: 4% 6%;
+      //float: right;
+      padding: 1%;
       margin: 2.2% 6%;
       border: 1px solid @dullorange;
       border-radius: 5px;
@@ -73,13 +76,23 @@ header {
     //}
   //}
 
-  //@media @phone {
-  //  .navTop {
-  //    display: flex;
-  //    flex-direction: column;
-  //    //max-width: 100%;
-  //  }
-  //}
+  @media @phone {
+    .navTop {
+      display: flex;
+      flex-direction: column;
+      max-width: 60%;
+      a{
+        font-size: 1.2rem;
+      }
+    }
+    .search-container{
+      display: none;
+    }
+    .loginTop a{
+      max-width: 100%;
+      padding: 0 30%;
+    }
+  }
 
   .navLoginMain {
     margin: 0 1.2rem;

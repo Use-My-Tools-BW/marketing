@@ -2,19 +2,50 @@
     display:flex;
     justify-content: space-between;
     text-align: center;
+    .needAToolBtn {
+        display:flex;
+        justify-content: flex-start;
+        white-space: nowrap;
+        background-color: @dullorange;
+        color:@black;
+        border-left: 1px solid @dullorange;
+        border-bottom-left-radius: 20px;
+        margin-right:10%;
+        font-size: x-large;
+        text-decoration: none;
+        width: 100%;
+        cursor: pointer;
+        padding:5%;
+    }
+    .haveAToolBtn {
+        display:flex;
+        justify-content: flex-end;
+        white-space: nowrap;
+        background-color: @dullorange;
+        color:@black;
+        border-right: 1px solid @dullorange;
+        border-bottom-right-radius:20px;
+        color:@black;
+        font-size: x-large;
+        text-decoration: none;
+        width: 100%;
+        cursor: pointer;
+        padding:5%;
+
+    }
     padding: 4%;
     .needAToolDesc {
             display:flex;
             flex-direction: column;
             margin:0 4%;
             width:75%;
-            a { 
+            a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
                 font-size:1.4rem;
                 padding:2%;
                 justify-content: space-around;
                 align-items:center;
-                align-content: center;     
+                align-content: center;
             }
             h2 {
                 font-size:1.4rem;
@@ -22,9 +53,10 @@
             h3 {
                 font-size:1.3rem;
                 font-style: italic;
-                } 
+                }
             p {
-                font-size:1rem;
+
+                    font-size:small;
             }
             .needAToolBtn {
                 display:flex;
@@ -34,18 +66,18 @@
                 color:@black;
                 border-left: 1px solid @dullorange;
                 border-bottom-left-radius: 20px;
-                font-size: 3rem; 
+                font-size: 3rem;
                 text-decoration: none;
                 height:20vh;
                 cursor: pointer;
                 padding:10%;
                 margin:2%;
-                
-            }        
+
+            }
             .toolneededimg img{
                 border:0px solid @dullorange;
-                border-radius:100%;  
-            }  
+                border-radius:100%;
+            }
         }
     .haveAToolDesc {
             display:flex;
@@ -54,24 +86,24 @@
             margin-right:10%;
             a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
-                font-size: 1.4rem; 
+                font-size: 1.4rem;
                 padding:2%;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items:center;
-                align-content: center;     
-                 
+                align-content: center;
+
                 }
             h2 {
                 font-size:1.4rem;
                 }
-            h3 { 
+            h3 {
                 font-size:1.3rem;
                 font-style: italic;
-                } 
+                }
             p   {
                 font-size:1rem;
-                }   
+                }
             .haveAToolBtn {
                     display:flex;
                     flex-direction: column;
@@ -80,7 +112,7 @@
                     color:@black;
                     border-right: 0px solid @dullorange;
                     border-bottom-right-radius:20px;
-                    font-size:3rem; 
+                    font-size:3rem;
                     text-decoration: none;
                     height:20vh;
                     cursor: pointer;
@@ -96,7 +128,6 @@
                 margin:2%
             }
         }
-       
 }
 
 .mainCntnt{
@@ -104,7 +135,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items:center;
-    align-content: center;  
+    align-content: center;
     padding:0 4%;
     hr {
         border-top:4px solid @dullorange;
@@ -116,7 +147,7 @@
         margin:0 2%;
         justify-content: center;
         align-content: center;
-        
+
         .toolcatbox{
             display:flex;
             flex-direction: column;
@@ -128,7 +159,6 @@
             width:30%;
             padding: 1%;
             margin: 2%;
-            
             h2{
                 display:flex;
                 justify-content: space-around;
@@ -136,24 +166,24 @@
                 align-content: center;
                 white-space: nowrap;
                 @media @phone{
-                    white-space: wrap; 
+                    white-space: wrap;
                 }
                 font-size:1.4rem;
                 margin: 2%;
-                display:flex; 
-                padding:2%;                      
+                display:flex;
+                padding:2%;
             }
             .ctbimg {
                     display:flex;
                     justify-content: space-around;
                     align-items:center;
-                    align-content: center;  
-                    img{               
+                    align-content: center;
+                    img{
                         margin:4%;
                         display:flex;
                         justify-content: space-around;
                         align-items:center;
-                        align-content: center;        
+                        align-content: center;
                     }
                 }
             a {
@@ -164,9 +194,9 @@
                 font-size:1.3rem;
                 justify-content: space-around;
                 align-items:center;
-                align-content: center;   
+                align-content: center;
             }
-         
+
         }
     }
 }
@@ -191,13 +221,13 @@
     text-align:right;
     justify-content: space-around;
     align-items:center;
-    align-content: center;   
+    align-content: center;
     cursor: pointer;
     p {
         text-align:center;
     }
     h2{
-        text-align:center;  
+        text-align:center;
     }
     h3{
         text-align:center;
@@ -213,7 +243,7 @@
         text-align:center;
     }
     h2{
-        text-align:center;  
+        text-align:center;
     }
     h3{
         text-align:center;
@@ -245,6 +275,7 @@ input#hvtlshw:checked ~ span#havetoolcnt {
 input#hvtlhd:checked ~ span#havetoolcnt {
     display:none;
 }
+
 .aboutteam{
     margin:2%;
     font-size:1.6rem;
@@ -292,4 +323,44 @@ p{
     font-size:1.4rem;
     text-align:center;
 }
+=======
+
+#pageContainer {
+  position: relative;
+  min-height: 100%;
+
+  .aboutteam {
+    margin: 2%;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2% 10%;
+    background-color: @dullorange;
+    border: 0px solid @dullorange;
+    border-radius: 100%;
+
+  }
+
+  .teemmembers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    .memberbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      border: 1px solid @dullorange;
+      width: 33%;
+      margin: 2%;
+      padding: 2%;
+    }
+  }
+
 }

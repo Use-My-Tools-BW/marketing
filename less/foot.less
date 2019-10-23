@@ -1,42 +1,46 @@
 footer{
-  background: repeating-linear-gradient(65deg,
-  @cautionyel,
-  @cautionyel 40px,
-  @black 40px,
-  @black 80px);
-  border-radius: 9px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50px;
-  border: 1px solid @black;
-  position: relative;
   //margin-top: 100px; //temporary margin to see effect
-  .navSub {
-    position: absolute;
-    margin: .65rem;
-    width: auto;
-  }
+  #footerContainer{
+    position: relative;
+    width: 100%;
+    background: repeating-linear-gradient(65deg,
+    @cautionyel,
+    @cautionyel 40px,
+    @black 40px,
+    @black 80px);
+    border-radius: 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    border: 1px solid @black;
+    }
+    .navSub {
+      position: absolute;
+      margin: .65rem;
+      width: auto;
+    }
 
-  .navBottom {
-    overflow: hidden;
-    //background-color: @black;
+    .navBottom {
+      overflow: hidden;
+      //background-color: @black;
 
-    a {
-      border: 1px solid @dullorange;
-      border-radius: 5px;
-      background-color: @black;
-      float: left;
-      color: @cautionyel;
-      text-align: center;
-      padding: .25em .50em;
-      text-decoration: none;
-      font-size: 1.5rem;
-      margin: .25em;
-      &:hover{
-        background-color: @cautionyel;
-        color: @black;
+      a {
+        border: 1px solid @dullorange;
+        border-radius: 5px;
+        background-color: @black;
+        float: left;
+        color: @cautionyel;
+        text-align: center;
+        padding: .25em .50em;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin: .25em;
+
+        &:hover {
+          background-color: @cautionyel;
+          color: @black;
+        }
       }
     }
   }
-}
