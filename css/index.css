@@ -1050,11 +1050,11 @@ select:focus {
   font-weight: 400;
 }
 .section2 {
-  position: relative;
   overflow: hidden;
 }
 .section2 .contactform {
-  position: absolute;
+  width: fit-content;
+  margin: auto;
   top: 0;
   right: 10%;
   z-index: 99;
@@ -1113,9 +1113,6 @@ select:focus {
 @media only screen and (max-width: 660px) {
   .container {
     padding: 10px 20px 30px;
-  }
-  .contmap {
-    height: 475px !important;
   }
   .sec1title h1 {
     font-size: 28px;
