@@ -624,6 +624,7 @@ header .loginTop a:hover {
   flex-direction: column;
   margin: 0 4%;
   width: 75%;
+  padding: 2%;
 }
 .useTypeDescContent .needAToolDesc .needAToolBtn {
   display: flex;
@@ -631,13 +632,13 @@ header .loginTop a:hover {
   white-space: nowrap;
   background-color: #ffa500;
   color: #000000;
-  border-left: 1px solid #ffa500;
+  border-left: 0px solid #ffa500;
   border-bottom-left-radius: 20px;
   font-size: 3rem;
   text-decoration: none;
   height: 20vh;
   cursor: pointer;
-  padding: 10%;
+  padding: 0% 15%;
   margin: 2%;
 }
 .useTypeDescContent .needAToolDesc a {
@@ -677,6 +678,7 @@ header .loginTop a:hover {
   display: flex;
   flex-direction: column;
   width: 75%;
+  padding: 2%;
 }
 .useTypeDescContent .haveAToolDesc .haveAToolBtn {
   display: flex;
@@ -690,7 +692,7 @@ header .loginTop a:hover {
   text-decoration: none;
   height: 20vh;
   cursor: pointer;
-  padding: 10%;
+  padding: 0% 15%;
   margin: 2%;
 }
 .useTypeDescContent .haveAToolDesc a {
