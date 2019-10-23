@@ -12,12 +12,12 @@
         border-left: 1px solid @dullorange;
         border-bottom-left-radius: 20px;
         margin-right:10%;
-        font-size: x-large;
+        font-size: x-large; 
         text-decoration: none;
         width: 100%;
         cursor: pointer;
-
-    }
+        padding:5%;        
+    } 
     .haveAToolBtn {
         display:flex;
         justify-content: flex-end;
@@ -26,42 +26,26 @@
         color:@black;
         border-right: 1px solid @dullorange;
         border-bottom-right-radius:20px;
-        margin-left: 10%;
         color:@black;
         font-size: x-large;
         text-decoration: none;
         width: 100%;
         cursor: pointer;
-
+        padding:5%;
+        
     }
-    .haveAToolDesc {
-        display:flex;
-        a{
-            .btn-creator(@black, 25%, @dullorange, 5%);
-            font-size: medium;
-            }
-        h2 {
-            font-size:large;
-            }
-        h3 {
-            font-size:large;
-                font-style: italic;
-            }
-        p   {
-            font-size:small;
-            }
-
-        .workHardimg img{
-            border:0px solid @dullorange;
-            border-radius:100%;
-        }
-    }
-
+         
     .needAToolDesc {
             display:flex;
-            a {
-                .btn-creator(@black, 25%, @dullorange, 5%);
+            margin:0 4%;
+            width:75%;
+            a { 
+                .btn-creator(@black, 35%, @dullorange, 8%);
                 font-size:medium;
+                padding:2%;
+                justify-content: space-around;
+                align-items:center;
+                align-content: center;     
             }
             h2 {
                 font-size:large;
@@ -78,7 +62,35 @@
                 border-radius:100%;
             }
         }
-
+    .haveAToolDesc {
+            display:flex;
+            width:75%;
+            margin-right:10%;
+            a{
+                .btn-creator(@black, 35%, @dullorange, 8%);
+                font-size: medium; 
+                padding:2%;
+                justify-content: space-around;
+                align-items:center;
+                align-content: center;     
+                 
+                }
+            h2 {
+                font-size:large;
+                }
+            h3 { 
+                font-size:large;
+                font-style: italic;
+                } 
+            p   {
+                font-size:small;
+                }   
+            
+            .workHardimg img{
+                border:0px solid @dullorange;
+                border-radius:100%;
+            }
+        }
 }
 
 .mainCntnt{
@@ -105,13 +117,13 @@
             border-radius: 5px;
             width:20%;
             padding: 2%;
-            margin:2%;
-
+            margin: 2%;
             h2{
                 display:flex;
                 justify-content: space-around;
                 align-items:center;
                 align-content: center;
+                white-space: nowrap;
                 font-size:large;
                 margin: 2%;
                 display:flex;
@@ -130,12 +142,14 @@
                 }
             }
             a {
-                display:flex;
                 border:1px solid @dullorange;
-                .btn-creator(@black, 75px, @dullorange, 20px);
+                .btn-creator(@black, 70%, @dullorange, 15%);
                 margin:10%;
                 padding:2%;
                 font-size:medium;
+                justify-content: space-around;
+                align-items:center;
+                align-content: center;   
             }
 
         }
