@@ -329,49 +329,17 @@ header .loginTop a:hover {
   cursor: pointer;
   padding: 5%;
 }
-.useTypeDescContent .haveAToolDesc {
-  display: flex;
-  width: 75%;
-}
-.useTypeDescContent .haveAToolDesc a {
-  display: block;
-  background-color: #000000;
-  cursor: pointer;
-  width: 25%;
-  height: 6%;
-  border-radius: 10px;
-  color: #ffa500;
-  padding: 1%;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  font-size: medium;
-}
-.useTypeDescContent .haveAToolDesc h2 {
-  font-size: large;
-}
-.useTypeDescContent .haveAToolDesc h3 {
-  font-size: large;
-  font-style: italic;
-}
-.useTypeDescContent .haveAToolDesc p {
-  font-size: small;
-}
-.useTypeDescContent .haveAToolDesc .workHardimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-}
 .useTypeDescContent .needAToolDesc {
   display: flex;
   margin: 0 4%;
   width: 75%;
 }
 .useTypeDescContent .needAToolDesc a {
-  display: block;
+  display: flex;
   background-color: #000000;
   cursor: pointer;
-  width: 25%;
-  height: 6%;
+  width: 35%;
+  height: 8%;
   border-radius: 10px;
   color: #ffa500;
   padding: 1%;
@@ -379,6 +347,10 @@ header .loginTop a:hover {
   text-align: center;
   white-space: nowrap;
   font-size: medium;
+  padding: 2%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 .useTypeDescContent .needAToolDesc h2 {
   font-size: large;
@@ -391,6 +363,43 @@ header .loginTop a:hover {
   font-size: small;
 }
 .useTypeDescContent .needAToolDesc .toolneededimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+}
+.useTypeDescContent .haveAToolDesc {
+  display: flex;
+  width: 75%;
+  margin-right: 10%;
+}
+.useTypeDescContent .haveAToolDesc a {
+  display: flex;
+  background-color: #000000;
+  cursor: pointer;
+  width: 35%;
+  height: 8%;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 1%;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  font-size: medium;
+  padding: 2%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.useTypeDescContent .haveAToolDesc h2 {
+  font-size: large;
+}
+.useTypeDescContent .haveAToolDesc h3 {
+  font-size: large;
+  font-style: italic;
+}
+.useTypeDescContent .haveAToolDesc p {
+  font-size: small;
+}
+.useTypeDescContent .haveAToolDesc .workHardimg img {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
@@ -445,9 +454,8 @@ header .loginTop a:hover {
   align-content: center;
 }
 .mainCntnt .toolTypescontent .toolcatbox a {
-  display: flex;
   border: 1px solid #ffa500;
-  display: block;
+  display: flex;
   background-color: #000000;
   cursor: pointer;
   width: 70%;
@@ -461,6 +469,9 @@ header .loginTop a:hover {
   margin: 10%;
   padding: 2%;
   font-size: medium;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 #havetoolcnt {
   padding: 2%;
