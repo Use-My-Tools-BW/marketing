@@ -619,40 +619,26 @@ header .loginTop a:hover {
   text-align: center;
   padding: 4%;
 }
-.useTypeDescContent .needAToolBtn {
-  display: flex;
-  justify-content: flex-start;
-  white-space: nowrap;
-  background-color: #ffa500;
-  color: #000000;
-  border-left: 1px solid #ffa500;
-  border-bottom-left-radius: 20px;
-  margin-right: 10%;
-  font-size: x-large;
-  text-decoration: none;
-  width: 100%;
-  cursor: pointer;
-  padding: 5%;
-}
-.useTypeDescContent .haveAToolBtn {
-  display: flex;
-  justify-content: flex-end;
-  white-space: nowrap;
-  background-color: #ffa500;
-  border-right: 1px solid #ffa500;
-  border-bottom-right-radius: 20px;
-  color: #000000;
-  font-size: x-large;
-  text-decoration: none;
-  width: 100%;
-  cursor: pointer;
-  padding: 5%;
-}
 .useTypeDescContent .needAToolDesc {
   display: flex;
   flex-direction: column;
   margin: 0 4%;
   width: 75%;
+}
+.useTypeDescContent .needAToolDesc .needAToolBtn {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  background-color: #ffa500;
+  color: #000000;
+  border-left: 1px solid #ffa500;
+  border-bottom-left-radius: 20px;
+  font-size: 3rem;
+  text-decoration: none;
+  height: 20vh;
+  cursor: pointer;
+  padding: 10%;
+  margin: 2%;
 }
 .useTypeDescContent .needAToolDesc a {
   display: flex;
@@ -683,21 +669,6 @@ header .loginTop a:hover {
 .useTypeDescContent .needAToolDesc p {
   font-size: small;
 }
-.useTypeDescContent .needAToolDesc .needAToolBtn {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  background-color: #ffa500;
-  color: #000000;
-  border-left: 1px solid #ffa500;
-  border-bottom-left-radius: 20px;
-  font-size: 3rem;
-  text-decoration: none;
-  height: 20vh;
-  cursor: pointer;
-  padding: 10%;
-  margin: 2%;
-}
 .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
   border-radius: 100%;
@@ -706,7 +677,21 @@ header .loginTop a:hover {
   display: flex;
   flex-direction: column;
   width: 75%;
-  margin-right: 10%;
+}
+.useTypeDescContent .haveAToolDesc .haveAToolBtn {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  background-color: #ffa500;
+  color: #000000;
+  border-right: 0px solid #ffa500;
+  border-bottom-right-radius: 20px;
+  font-size: 3rem;
+  text-decoration: none;
+  height: 20vh;
+  cursor: pointer;
+  padding: 10%;
+  margin: 2%;
 }
 .useTypeDescContent .haveAToolDesc a {
   display: flex;
@@ -737,24 +722,6 @@ header .loginTop a:hover {
 }
 .useTypeDescContent .haveAToolDesc p {
   font-size: 1rem;
-}
-.useTypeDescContent .haveAToolDesc .haveAToolBtn {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  background-color: #ffa500;
-  color: #000000;
-  border-right: 0px solid #ffa500;
-  border-bottom-right-radius: 20px;
-  font-size: 3rem;
-  text-decoration: none;
-  height: 20vh;
-  cursor: pointer;
-  padding: 10%;
-  margin: 2%;
-}
-.useTypeDescContent .haveAToolDesc .haveAToolBtn a {
-  font-size: 2rem;
 }
 .useTypeDescContent .haveAToolDesc .workHardimg img {
   border: 0px solid #ffa500;
@@ -908,11 +875,7 @@ input#hvtlshw:checked ~ span#havetoolcnt {
 input#hvtlhd:checked ~ span#havetoolcnt {
   display: none;
 }
-#pageContainer {
-  position: relative;
-  min-height: 100%;
-}
-#pageContainer .aboutteam {
+.aboutteam {
   margin: 2%;
   font-size: 1.6rem;
   text-align: center;
@@ -921,16 +884,16 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
-#pageContainer .teemmembers {
+.teemmembers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-#pageContainer .teemmembers h1 {
+.teemmembers h1 {
   width: 100%;
   text-align: center;
 }
-#pageContainer .teemmembers .memberbox {
+.teemmembers .memberbox {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -941,7 +904,6 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   margin: 2%;
   padding: 2%;
 }
-
 .aboutcontent {
   padding: 0% 10%;
   margin: 2%;
@@ -959,8 +921,39 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   font-size: 1.4rem;
   text-align: center;
 }
-footer {
-=======
+.aboutcontent #pageContainer {
+  position: relative;
+  min-height: 100%;
+}
+.aboutcontent #pageContainer .aboutteam {
+  margin: 2%;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2% 10%;
+  background-color: #ffa500;
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+}
+.aboutcontent #pageContainer .teemmembers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.aboutcontent #pageContainer .teemmembers h1 {
+  width: 100%;
+  text-align: center;
+}
+.aboutcontent #pageContainer .teemmembers .memberbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #ffa500;
+  width: 33%;
+  margin: 2%;
+  padding: 2%;
+}
 footer #footerContainer {
   position: relative;
   width: 100%;
@@ -1128,4 +1121,3 @@ select:focus {
     width: 100%;
   }
 }
-/*# sourceMappingURL=index.css.map */
