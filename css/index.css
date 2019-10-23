@@ -941,6 +941,26 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   margin: 2%;
   padding: 2%;
 }
+
+.aboutcontent {
+  padding: 0% 10%;
+  margin: 2%;
+  border: 1px double #ffa500;
+  text-align: center;
+}
+.aboutcontent h1 {
+  font-size: 3.5rem;
+}
+.aboutcontent h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.aboutcontent p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+footer {
+=======
 footer #footerContainer {
   position: relative;
   width: 100%;
