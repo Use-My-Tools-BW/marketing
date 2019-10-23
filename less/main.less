@@ -256,22 +256,40 @@ input#hvtlhd:checked ~ span#havetoolcnt {
     
 }
 .teemmembers{
-display:flex;
-flex-wrap:wrap;
-justify-content: space-evenly;
-h1{
-    width:100%;
-    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    h1{
+        width:100%;
+        text-align: center;
+    }
+
+    .memberbox {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        align-content: center;
+        border: 1px solid @dullorange;
+        width:33%;
+        margin:2%;
+        padding:2%;
+    }
 }
-.memberbox {
-display:flex;
-flex-direction: column;
-justify-content: space-around;
-align-items:center;
-align-content: center;
-border: 1px solid @dullorange;
-width:33%;
+.aboutcontent {
+padding:0% 10%;
 margin:2%;
-padding:2%;
+border: 1px double @dullorange;
+text-align:center;
+h1{
+    font-size:3.5rem;
+}
+h2{
+    font-size: 3rem;
+    text-align:center;
+}
+p{
+    font-size:1.4rem;
+    text-align:center;
 }
 }
