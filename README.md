@@ -7,8 +7,8 @@
 ## Team
 
 - Zac Smith ~ PL ~ GH: [zrsmith75](https://github.com/zrsmith75)
-Joseph Graham ~ Web Dev UI ~ GH: https://github.com/oofiksoo
-
+- Joseph Graham ~ Web 25 UI ~ Body Content / Meet content / Contact conent ~ GH: https://github.com/oofiksoo
+- Ashley Dunham ~ web 25 UI ~ Navigation / Header / Footer / Forms ~ GH: https://github/xenocide21
 ## Stack
 
 - HTML
