@@ -956,6 +956,9 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   margin: 2%;
   padding: 2%;
 }
+.teemmembers .memberbox img {
+  width: 100%;
+}
 .aboutcontent {
   padding: 0% 10%;
   margin: 2%;
