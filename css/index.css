@@ -944,6 +944,13 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   width: 100%;
   text-align: center;
 }
+@media (max-width: 720px) {
+  .teemmembers {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
 .teemmembers .memberbox {
   display: flex;
   flex-direction: column;
@@ -954,6 +961,14 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   width: 33%;
   margin: 2%;
   padding: 2%;
+}
+@media (max-width: 720px) {
+  .teemmembers .memberbox {
+    width: 70%;
+  }
+}
+.teemmembers .memberbox img {
+  width: 100%;
 }
 .aboutcontent {
   padding: 0% 10%;
@@ -972,11 +987,7 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   font-size: 1.4rem;
   text-align: center;
 }
-.aboutcontent #pageContainer {
-  position: relative;
-  min-height: 100%;
-}
-.aboutcontent #pageContainer .aboutteam {
+.meetmaincnt .aboutteam {
   margin: 2%;
   font-size: 1.6rem;
   text-align: center;
@@ -985,16 +996,23 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
-.aboutcontent #pageContainer .teemmembers {
+.meetmaincnt .teemmembers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.aboutcontent #pageContainer .teemmembers h1 {
+.meetmaincnt .teemmembers h1 {
   width: 100%;
   text-align: center;
 }
-.aboutcontent #pageContainer .teemmembers .memberbox {
+@media (max-width: 720px) {
+  .meetmaincnt .teemmembers {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
+.meetmaincnt .teemmembers .memberbox {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -1004,6 +1022,14 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   width: 33%;
   margin: 2%;
   padding: 2%;
+}
+@media (max-width: 720px) {
+  .meetmaincnt .teemmembers .memberbox {
+    width: 70%;
+  }
+}
+.meetmaincnt .teemmembers .memberbox img {
+  width: 100%;
 }
 footer #footerContainer {
   position: relative;

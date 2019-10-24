@@ -56,9 +56,9 @@
                 }
             p {
 
-                    font-size:2rem;
-                    @media @tablet{
-                        font-size:1rem;
+                font-size:2rem;
+                @media @tablet{
+                    font-size:1rem;
                     };
             }
             .toolneededimg img{
@@ -290,6 +290,11 @@ input#hvtlhd:checked ~ span#havetoolcnt {
         width:100%;
         text-align: center;
     }
+    @media @tablet{
+        flex-direction: column;
+        align-items:center;
+        align-content: center;
+    };
 
     .memberbox {
         display:flex;
@@ -301,6 +306,13 @@ input#hvtlhd:checked ~ span#havetoolcnt {
         width:33%;
         margin:2%;
         padding:2%;
+        @media @tablet{
+            width:70%;
+        };
+        img{
+            width:100%;
+        }
+       
     }
 }
 .aboutcontent {
@@ -319,44 +331,51 @@ p{
     font-size:1.4rem;
     text-align:center;
 }
-
-#pageContainer {
-  position: relative;
-  min-height: 100%;
-
-  .aboutteam {
-    margin: 2%;
-    font-size: 1.6rem;
-    text-align: center;
-    padding: 2% 10%;
-    background-color: @dullorange;
-    border: 0px solid @dullorange;
-    border-radius: 100%;
-
-  }
-
-  .teemmembers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-    h1 {
-      width: 100%;
-      text-align: center;
-    }
-
-    .memberbox {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-      align-items: center;
-      align-content: center;
-      border: 1px solid @dullorange;
-      width: 33%;
-      margin: 2%;
-      padding: 2%;
-    }
-  }
-
 }
+.meetmaincnt {
+    .aboutteam {
+        margin: 2%;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 2% 10%;
+        background-color: @dullorange;
+        border: 0px solid @dullorange;
+        border-radius: 100%;
+
+    }
+    .teemmembers{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        h1{
+            width:100%;
+            text-align: center;
+        }
+        @media @tablet{
+            flex-direction: column;
+            align-items:center;
+            align-content: center;
+        };
+    
+        .memberbox {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items:center;
+            align-content: center;
+            border: 1px solid @dullorange;
+            width:33%;
+            margin:2%;
+            padding:2%;
+            @media @tablet{
+                width:70%;
+            };
+            img{
+                width:100%;
+            }
+           
+        }
+    }
+    
 }
+
