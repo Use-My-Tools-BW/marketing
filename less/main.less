@@ -32,7 +32,7 @@
                 }
             a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
-                font-size:1.4rem;
+                font-size:1.8rem;
                 padding:2%;
                 justify-content: space-around;
                 align-items:center;
@@ -42,13 +42,13 @@
                 };
             }
             h2 {
-                font-size:1.6rem;
+                font-size:3rem;
                 }
                 @media @tablet{
                     font-size:1.3rem;
                 };
             h3 {
-                font-size:1.3rem;
+                font-size:2.5rem;
                 font-style: italic;
                 @media @tablet{
                     font-size:1.2rem;
@@ -56,7 +56,7 @@
                 }
             p {
 
-                    font-size:1.2rem;
+                    font-size:2rem;
                     @media @tablet{
                         font-size:1rem;
                     };
@@ -88,7 +88,7 @@
                 }
             a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
-                font-size: 1.4rem;
+                font-size: 1.8rem;
                 padding:2%;
                 flex-direction: column;
                 justify-content: space-around;
@@ -100,13 +100,13 @@
                 
                 }
             h2 {
-                font-size:1.6rem;
+                font-size:3rem;
                 @media @tablet{
                     font-size:1.3rem;
                 };
             }
             h3 {
-                font-size:1.3rem;
+                font-size:2.5rem;
                 font-style: italic;
                 @media @tablet{
                     font-size:1.2rem;
@@ -114,7 +114,7 @@
 
                 }
             p   {
-                font-size:1.2rem;
+                font-size:2rem;
                 @media @tablet{
                     font-size:1rem;
                 };
@@ -135,7 +135,9 @@
         margin:0 2%;
         justify-content: center;
         align-content: center;
-
+        @media @tablet{
+            flex-direction: column;
+        };
         .toolcatbox{
             display:flex;
             flex-direction: column;
@@ -147,19 +149,22 @@
             width:30%;
             padding: 1%;
             margin: 2%;
+            @media @tablet{
+                width:70%;
+            };
             h2{
                 display:flex;
                 justify-content: space-around;
                 align-items:center;
                 align-content: center;
                 white-space: nowrap;
-                @media @tablet{
-                    font-size:1.2rem;
-                };
                 font-size:1.4rem;
                 margin: 2%;
                 display:flex;
                 padding:2%;
+                @media @tablet{
+                    font-size:1.2rem;
+                };
             }
             .ctbimg {
                     display:flex;
@@ -175,15 +180,15 @@
                     }
                 }
             a {
-                border:1px solid @dullorange;
+                border:0px solid @dullorange;
                 .btn-creator(@black, 70%, @dullorange, 15%);
                 margin:10%;
                 padding:2%;
-                font-size:1.3rem;
+                font-size:1.8rem;
                 justify-content: space-around;
                 align-items:center;
                 align-content: center;
-                @media @tablet{
+                @media @tablet, {
                     font-size:1.2rem;
                 };
         }
