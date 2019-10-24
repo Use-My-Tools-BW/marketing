@@ -885,7 +885,7 @@ input#hvtlhd:checked ~ span#havetoolcnt {
 .teemmembers {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .teemmembers h1 {
   width: 100%;
