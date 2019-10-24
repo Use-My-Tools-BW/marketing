@@ -524,7 +524,7 @@ textarea {
 }
 header {
   background: repeating-linear-gradient(65deg, #eed202, #eed202 40px, #000000 40px, #000000 80px);
-  border-radius: 9px;
+  border-radius: 0 0 9px 9px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1041,7 +1041,7 @@ footer #footerContainer {
   position: relative;
   width: 100%;
   background: repeating-linear-gradient(65deg, #eed202, #eed202 40px, #000000 40px, #000000 80px);
-  border-radius: 9px;
+  border-radius: 9px 9px 0 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
