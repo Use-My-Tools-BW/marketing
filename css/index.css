@@ -549,7 +549,7 @@ header .navTop a {
   padding: 1%;
   text-decoration: none;
   font-size: 2.2rem;
-  font-family: 'Saira', sans-serif;
+  font-family: 'Alegreya SC', serif;
   margin: auto 2%;
   height: 20%;
 }
@@ -605,12 +605,36 @@ header .loginTop a {
   padding: 1rem;
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: 'Saira', sans-serif;
+  font-family: 'Alegreya SC', serif;
   margin: 0.8rem;
 }
 header .loginTop a:hover {
   background-color: #eed202;
   color: #000000;
+}
+* {
+  font-family: 'Overlock', cursive;
+}
+@font-face {
+  font-family: 'Alegreya SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Alegreya SC Regular'), local('AlegreyaSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasc/v11/taiOGmRtCJ62-O0HhNEa-Z6v2ZU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Overlock';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Overlock Regular'), local('Overlock-Regular'), url(https://fonts.gstatic.com/s/overlock/v9/Z9XVDmdMWRiN1_T9Z7TZ6Ok.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Saira';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Saira Regular'), local('Saira-Regular'), url(https://fonts.gstatic.com/s/saira/v4/memwYa2wxmKQyNknTZY.ttf) format('truetype');
 }
 .mainCntnt {
   display: flex;
@@ -1066,7 +1090,7 @@ footer .navBottom a {
   padding: 0.25em 0.5em;
   text-decoration: none;
   font-size: 1.5rem;
-  font-family: 'Saira', sans-serif;
+  font-family: 'Alegreya SC', serif;
   margin: 0.25em;
 }
 footer .navBottom a:hover {
