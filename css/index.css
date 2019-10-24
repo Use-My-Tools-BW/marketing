@@ -613,123 +613,6 @@ header .loginTop a:hover {
   background-color: #eed202;
   color: #000000;
 }
-.useTypeDescContent {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding: 4%;
-}
-.useTypeDescContent .needAToolDesc {
-  display: flex;
-  flex-direction: column;
-  margin: 0 4%;
-  width: 75%;
-  padding: 2%;
-}
-.useTypeDescContent .needAToolDesc .needAToolBtn {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  background-color: #ffa500;
-  color: #000000;
-  border-left: 0px solid #ffa500;
-  border-bottom-left-radius: 20px;
-  font-size: 3rem;
-  text-decoration: none;
-  height: 20vh;
-  cursor: pointer;
-  padding: 0% 15%;
-  margin: 2%;
-}
-.useTypeDescContent .needAToolDesc a {
-  display: flex;
-  background-color: #000000;
-  cursor: pointer;
-  width: 35%;
-  height: 8%;
-  border: 0px solid black;
-  border-radius: 10px;
-  color: #ffa500;
-  padding: 1%;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  padding: 2%;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-.useTypeDescContent .needAToolDesc h2 {
-  font-size: 1.6rem;
-}
-.useTypeDescContent .needAToolDesc h3 {
-  font-size: 1.3rem;
-  font-style: italic;
-}
-.useTypeDescContent .needAToolDesc p {
-  font-size: 1.2rem;
-}
-.useTypeDescContent .needAToolDesc .toolneededimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-}
-.useTypeDescContent .haveAToolDesc {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  padding: 2%;
-}
-.useTypeDescContent .haveAToolDesc .haveAToolBtn {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  background-color: #ffa500;
-  color: #000000;
-  border-right: 0px solid #ffa500;
-  border-bottom-right-radius: 20px;
-  font-size: 3rem;
-  text-decoration: none;
-  height: 20vh;
-  cursor: pointer;
-  padding: 0% 15%;
-  margin: 2%;
-}
-.useTypeDescContent .haveAToolDesc a {
-  display: flex;
-  background-color: #000000;
-  cursor: pointer;
-  width: 35%;
-  height: 8%;
-  border: 0px solid black;
-  border-radius: 10px;
-  color: #ffa500;
-  padding: 1%;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 1.4rem;
-  padding: 2%;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-}
-.useTypeDescContent .haveAToolDesc h2 {
-  font-size: 1.6rem;
-}
-.useTypeDescContent .haveAToolDesc h3 {
-  font-size: 1.3rem;
-  font-style: italic;
-}
-.useTypeDescContent .haveAToolDesc p {
-  font-size: 1.2rem;
-}
-.useTypeDescContent .haveAToolDesc .workHardimg img {
-  border: 0px solid #ffa500;
-  border-radius: 100%;
-  margin: 2%;
-}
 .mainCntnt {
   display: flex;
   flex-direction: column;
@@ -738,14 +621,170 @@ header .loginTop a:hover {
   align-content: center;
   padding: 0 4%;
 }
-.mainCntnt .toolTypescontent {
+.mainCntnt .useTypeDescContent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 4%;
+}
+.mainCntnt .useTypeDescContent .needAToolDesc {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 2%;
+}
+.mainCntnt .useTypeDescContent .needAToolDesc .toolbtn {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  background-color: #ffa500;
+  color: #000000;
+  border-right: 0px solid #ffa500;
+  border-radius: 20px;
+  font-size: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 2%;
+  padding: 5%;
+}
+.mainCntnt .useTypeDescContent .needAToolDesc a {
+  display: flex;
+  background-color: #000000;
+  cursor: pointer;
+  width: 35%;
+  height: 8%;
+  border: 0px solid black;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 1%;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  padding: 2%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc a {
+    font-size: 1rem;
+  }
+}
+.mainCntnt .useTypeDescContent .needAToolDesc h2 {
+  font-size: 1.6rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc {
+    font-size: 1.3rem;
+  }
+}
+.mainCntnt .useTypeDescContent .needAToolDesc h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc h3 {
+    font-size: 1.2rem;
+  }
+}
+.mainCntnt .useTypeDescContent .needAToolDesc p {
+  font-size: 1.2rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc p {
+    font-size: 1rem;
+  }
+}
+.mainCntnt .useTypeDescContent .needAToolDesc .toolneededimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 2%;
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc .toolbtn {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  background-color: #ffa500;
+  color: #000000;
+  border-right: 0px solid #ffa500;
+  border-radius: 20px;
+  font-size: 3rem;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 2%;
+  padding: 5%;
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc a {
+  display: flex;
+  background-color: #000000;
+  cursor: pointer;
+  width: 35%;
+  height: 8%;
+  border: 0px solid black;
+  border-radius: 10px;
+  color: #ffa500;
+  padding: 1%;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1.4rem;
+  padding: 2%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc a {
+    font-size: 1rem;
+  }
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc h2 {
+  font-size: 1.6rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc h2 {
+    font-size: 1.3rem;
+  }
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc h3 {
+  font-size: 1.3rem;
+  font-style: italic;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc h3 {
+    font-size: 1.2rem;
+  }
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc p {
+  font-size: 1.2rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc p {
+    font-size: 1rem;
+  }
+}
+.mainCntnt .useTypeDescContent .haveAToolDesc .workHardimg img {
+  border: 0px solid #ffa500;
+  border-radius: 100%;
+  margin: 2%;
+}
+.toolTypescontent {
   display: flex;
   flex-wrap: wrap;
   margin: 0 2%;
   justify-content: center;
   align-content: center;
 }
-.mainCntnt .toolTypescontent .toolcatbox {
+.toolTypescontent .toolcatbox {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -757,7 +796,7 @@ header .loginTop a:hover {
   padding: 1%;
   margin: 2%;
 }
-.mainCntnt .toolTypescontent .toolcatbox h2 {
+.toolTypescontent .toolcatbox h2 {
   justify-content: space-around;
   align-items: center;
   align-content: center;
@@ -767,25 +806,25 @@ header .loginTop a:hover {
   display: flex;
   padding: 2%;
 }
-@media (max-width: 500px) {
-  .mainCntnt .toolTypescontent .toolcatbox h2 {
-    white-space: wrap;
+@media (max-width: 720px) {
+  .toolTypescontent .toolcatbox h2 {
+    font-size: 1.2rem;
   }
 }
-.mainCntnt .toolTypescontent .toolcatbox .ctbimg {
+.toolTypescontent .toolcatbox .ctbimg {
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
 }
-.mainCntnt .toolTypescontent .toolcatbox .ctbimg img {
+.toolTypescontent .toolcatbox .ctbimg img {
   margin: 4%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
 }
-.mainCntnt .toolTypescontent .toolcatbox a {
+.toolTypescontent .toolcatbox a {
   border: 1px solid #ffa500;
   display: flex;
   background-color: #000000;
@@ -805,6 +844,11 @@ header .loginTop a:hover {
   justify-content: space-around;
   align-items: center;
   align-content: center;
+}
+@media (max-width: 720px) {
+  .toolTypescontent .toolcatbox a {
+    font-size: 1.2rem;
+  }
 }
 .contactinfo h1 {
   font-size: 3rem;
