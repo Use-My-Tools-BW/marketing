@@ -978,6 +978,12 @@ input#hvtlhd:checked ~ span#havetoolcnt {
 }
 .aboutcontent h1 {
   font-size: 3.5rem;
+  margin: 2%;
+  text-align: center;
+  padding: 2% 10%;
+  background-color: #ffa500;
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 .aboutcontent h2 {
   font-size: 3rem;
@@ -1090,6 +1096,15 @@ footer .navBottom a:hover {
   font-weight: normal;
   font-size: 1em;
   font-family: 'Roboto', Arial, sans-serif;
+}
+.contactinfo {
+  margin: 2%;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2% 10%;
+  background-color: #ffa500;
+  border: 0px solid #ffa500;
+  border-radius: 100%;
 }
 input:focus,
 textarea:focus,

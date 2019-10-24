@@ -7,8 +7,12 @@
 ## Team
 
 - Zac Smith ~ PL ~ GH: [zrsmith75](https://github.com/zrsmith75)
-- Joseph Graham ~ Web 25 UI ~ Body Content / Meet content / Contact conent ~ GH: [oofiksoo] (https://github.com/oofiksoo)
-- Ashley Dunham ~ web 25 UI ~ Navigation / Header / Footer / Forms ~ GH:[xenocide21] (https://github/xenocide21)
+- Joseph Graham ~ Web 25 UI ~ GH: [oofiksoo](https://github.com/oofiksoo)
+- Ashley Dunham ~ web 25 UI ~ GH: [xenocide21](https://github/xenocide21)
+- Steve Renner ~ React ~ GH: [Steverenner1](https://github.com/Steverenner1)
+- David Delfaus ~ React ~ GH: [ddelfaus](https://github.com/ddelfaus)
+- Micah Riley ~ React ~GH: [micahriley88](https://ithub.com/micahriley88)
+- Julie Antonio ~ API ~ GH:[julieantonio](https://github.com/julieantonio)
 ## Stack
 
 - HTML
