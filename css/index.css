@@ -988,11 +988,7 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   font-size: 1.4rem;
   text-align: center;
 }
-.aboutcontent #pageContainer {
-  position: relative;
-  min-height: 100%;
-}
-.aboutcontent #pageContainer .aboutteam {
+.aboutcontent .aboutteam {
   margin: 2%;
   font-size: 1.6rem;
   text-align: center;
@@ -1001,16 +997,16 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   border: 0px solid #ffa500;
   border-radius: 100%;
 }
-.aboutcontent #pageContainer .teemmembers {
+.aboutcontent .teemmembers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.aboutcontent #pageContainer .teemmembers h1 {
+.aboutcontent .teemmembers h1 {
   width: 100%;
   text-align: center;
 }
-.aboutcontent #pageContainer .teemmembers .memberbox {
+.aboutcontent .teemmembers .memberbox {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
