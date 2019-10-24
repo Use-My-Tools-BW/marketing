@@ -945,6 +945,13 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   width: 100%;
   text-align: center;
 }
+@media (max-width: 720px) {
+  .teemmembers {
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
 .teemmembers .memberbox {
   display: flex;
   flex-direction: column;
@@ -955,6 +962,11 @@ input#hvtlhd:checked ~ span#havetoolcnt {
   width: 33%;
   margin: 2%;
   padding: 2%;
+}
+@media (max-width: 720px) {
+  .teemmembers .memberbox {
+    width: 70%;
+  }
 }
 .teemmembers .memberbox img {
   width: 100%;
