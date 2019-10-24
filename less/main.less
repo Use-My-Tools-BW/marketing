@@ -1,28 +1,34 @@
-.useTypeDescContent{
+.mainCntnt{
     display:flex;
-    justify-content: center;
-    text-align: center;
-    padding: 4%;
-    .needAToolDesc {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    align-content: center;
+    padding:0 4%;
+    .useTypeDescContent{
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        padding: 4%;
+        .needAToolDesc {
             display:flex;
             flex-direction: column;
-            margin:0 4%;
             width:75%;
-            padding:2%;
-            .needAToolBtn {
+            margin:2%;
+            .toolbtn {
                 display:flex;
-                flex-direction: column;
                 white-space: nowrap;
+                flex-direction: column;
                 background-color: @dullorange;
                 color:@black;
-                border-left: 0px solid @dullorange;
-                border-bottom-left-radius: 20px;
-                font-size: 3rem;
+                border-right: 0px solid @dullorange;
+                border-radius:20px;
+                font-size:3rem;
                 text-decoration: none;
-                height:20vh;
                 cursor: pointer;
-                padding:0% 15%;
+                width:100%;
                 margin:2%;
+                padding:5%;
                 }
             a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
@@ -48,26 +54,26 @@
                 border-radius:100%;
             }
         }
-    .haveAToolDesc {
+        .haveAToolDesc {
             display:flex;
             flex-direction: column;
             width:75%;
-            padding:2%;
-            .haveAToolBtn {
+            margin:2%;
+            .toolbtn {
                 display:flex;
-                flex-direction: column;
                 white-space: nowrap;
+                flex-direction: column;
                 background-color: @dullorange;
                 color:@black;
                 border-right: 0px solid @dullorange;
-                border-bottom-right-radius:20px;
+                border-radius:20px;
                 font-size:3rem;
                 text-decoration: none;
-                height:20vh;
                 cursor: pointer;
-                padding:0% 15%;
+                width:100%;
                 margin:2%;
-            }
+                padding:5%;
+                }
             a {
                 .btn-creator(@black, 35%, @dullorange, 8%);
                 font-size: 1.4rem;
@@ -76,14 +82,15 @@
                 justify-content: space-around;
                 align-items:center;
                 align-content: center;
-
+                
                 }
             h2 {
                 font-size:1.6rem;
-                }
+            }
             h3 {
                 font-size:1.3rem;
                 font-style: italic;
+
                 }
             p   {
                 font-size:1.2rem;
@@ -96,15 +103,7 @@
             }
         }
 }
-
-.mainCntnt{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
-    align-content: center;
-    padding:0 4%;
-    
+}
    .toolTypescontent{
         display:flex;
         justify-content:center;
@@ -164,7 +163,7 @@
 
         }
     }
-}
+
 
 .contactinfo{
     h1{
