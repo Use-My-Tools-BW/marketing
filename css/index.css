@@ -667,15 +667,35 @@ header .loginTop a:hover {
   align-items: center;
   align-content: center;
 }
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc a {
+    font-size: 1rem;
+  }
+}
 .mainCntnt .useTypeDescContent .needAToolDesc h2 {
   font-size: 1.6rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc {
+    font-size: 1.3rem;
+  }
 }
 .mainCntnt .useTypeDescContent .needAToolDesc h3 {
   font-size: 1.3rem;
   font-style: italic;
 }
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc h3 {
+    font-size: 1.2rem;
+  }
+}
 .mainCntnt .useTypeDescContent .needAToolDesc p {
   font-size: 1.2rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .needAToolDesc p {
+    font-size: 1rem;
+  }
 }
 .mainCntnt .useTypeDescContent .needAToolDesc .toolneededimg img {
   border: 0px solid #ffa500;
@@ -722,15 +742,35 @@ header .loginTop a:hover {
   align-items: center;
   align-content: center;
 }
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc a {
+    font-size: 1rem;
+  }
+}
 .mainCntnt .useTypeDescContent .haveAToolDesc h2 {
   font-size: 1.6rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc h2 {
+    font-size: 1.3rem;
+  }
 }
 .mainCntnt .useTypeDescContent .haveAToolDesc h3 {
   font-size: 1.3rem;
   font-style: italic;
 }
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc h3 {
+    font-size: 1.2rem;
+  }
+}
 .mainCntnt .useTypeDescContent .haveAToolDesc p {
   font-size: 1.2rem;
+}
+@media (max-width: 720px) {
+  .mainCntnt .useTypeDescContent .haveAToolDesc p {
+    font-size: 1rem;
+  }
 }
 .mainCntnt .useTypeDescContent .haveAToolDesc .workHardimg img {
   border: 0px solid #ffa500;
@@ -766,9 +806,9 @@ header .loginTop a:hover {
   display: flex;
   padding: 2%;
 }
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   .toolTypescontent .toolcatbox h2 {
-    white-space: wrap;
+    font-size: 1.2rem;
   }
 }
 .toolTypescontent .toolcatbox .ctbimg {
@@ -804,6 +844,11 @@ header .loginTop a:hover {
   justify-content: space-around;
   align-items: center;
   align-content: center;
+}
+@media (max-width: 720px) {
+  .toolTypescontent .toolcatbox a {
+    font-size: 1.2rem;
+  }
 }
 .contactinfo h1 {
   font-size: 3rem;
